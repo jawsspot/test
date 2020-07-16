@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box; /*Свойства width и height включают в себя значения полей и границ, но не отступов (margin) */
+}
+
+a {
+  text-decoration: none; /*Отменяет все эффекты, в том числе и подчеркивания у ссылок*/
+  color: inherit;
+}
+
+.list-reset {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  list-style-type: none; /*Отменяет маркеры для списка*/
+}
+.exit {
+  border: none;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+}
